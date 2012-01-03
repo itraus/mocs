@@ -1,0 +1,57 @@
+%
+% GALE automatic stratified fold generation for CV
+%
+% Generated at        : Wed Feb 21 19:22:14 CET 2001
+% Random seed         : 69
+% File name           : GALE.hungarian-14-heart-disease.cv.seed.69.fold.000008.test.arff
+% Number of instances : 30
+%
+
+@RELATION hungarian-14-heart-disease
+
+@ATTRIBUTE	'age'	REAL
+@ATTRIBUTE	'sex'	{female,male}
+@ATTRIBUTE	'chest_pain'	{typ_angina,asympt,non_anginal,atyp_angina}
+@ATTRIBUTE	'trestbps'	REAL
+@ATTRIBUTE	'chol'	REAL
+@ATTRIBUTE	'fbs'	{t,f}
+@ATTRIBUTE	'restecg'	{left_vent_hyper,normal,st_t_wave_abnormality}
+@ATTRIBUTE	'thalach'	REAL
+@ATTRIBUTE	'exang'	{no,yes}
+@ATTRIBUTE	'oldpeak'	REAL
+@ATTRIBUTE	'slope'	{down,flat,up}
+@ATTRIBUTE	'ca'	REAL
+@ATTRIBUTE	'thal'	{fixed_defect,normal,reversable_defect}
+@ATTRIBUTE	'num'	{'<50','>50_1','>50_2','>50_3','>50_4'}
+
+@DATA
+31.0,female,atyp_angina,100.0,219.0,f,st_t_wave_abnormality,150.0,no,0.0,?,?,?,'<50'
+48.0,female,asympt,108.0,163.0,f,normal,175.0,no,2.0,up,?,?,'<50'
+37.0,male,atyp_angina,130.0,283.0,f,st_t_wave_abnormality,98.0,no,0.0,?,?,?,'<50'
+58.0,male,non_anginal,140.0,179.0,f,normal,160.0,no,0.0,?,?,?,'<50'
+53.0,male,non_anginal,145.0,518.0,f,normal,130.0,no,0.0,?,?,?,'>50_1'
+49.0,male,asympt,140.0,234.0,f,normal,140.0,yes,1.0,flat,?,?,'>50_1'
+49.0,male,asympt,130.0,206.0,f,normal,170.0,no,0.0,?,?,?,'>50_1'
+58.0,male,atyp_angina,130.0,230.0,f,normal,150.0,no,0.0,?,?,?,'<50'
+47.0,male,asympt,160.0,291.0,f,st_t_wave_abnormality,158.0,yes,3.0,flat,?,?,'>50_1'
+39.0,male,atyp_angina,130.0,?,f,normal,120.0,no,0.0,?,?,?,'<50'
+40.0,female,asympt,150.0,392.0,f,normal,130.0,no,2.0,flat,?,fixed_defect,'>50_1'
+50.0,male,atyp_angina,170.0,209.0,f,st_t_wave_abnormality,116.0,no,0.0,?,?,?,'<50'
+56.0,male,asympt,170.0,388.0,f,st_t_wave_abnormality,122.0,yes,2.0,flat,?,?,'>50_1'
+62.0,male,atyp_angina,140.0,271.0,f,normal,152.0,no,1.0,up,?,?,'<50'
+41.0,male,asympt,120.0,237.0,?,normal,138.0,yes,1.0,flat,?,?,'>50_1'
+45.0,female,atyp_angina,130.0,237.0,f,normal,170.0,no,0.0,?,?,?,'<50'
+29.0,male,atyp_angina,120.0,243.0,f,normal,160.0,no,0.0,?,?,?,'<50'
+39.0,male,asympt,130.0,307.0,f,normal,140.0,no,0.0,?,?,?,'<50'
+54.0,female,atyp_angina,120.0,221.0,f,normal,138.0,no,1.0,up,?,?,'<50'
+37.0,male,asympt,140.0,207.0,f,normal,130.0,yes,1.5,flat,?,?,'>50_1'
+43.0,female,atyp_angina,120.0,266.0,f,normal,118.0,no,0.0,?,?,?,'<50'
+52.0,male,atyp_angina,160.0,196.0,f,normal,165.0,no,0.0,?,?,?,'<50'
+46.0,male,asympt,110.0,238.0,f,st_t_wave_abnormality,140.0,yes,1.0,flat,?,normal,'<50'
+50.0,male,atyp_angina,140.0,216.0,f,normal,170.0,no,0.0,?,?,normal,'<50'
+54.0,male,asympt,200.0,198.0,f,normal,142.0,yes,2.0,flat,?,?,'>50_1'
+51.0,male,non_anginal,135.0,160.0,f,normal,150.0,no,2.0,flat,?,?,'>50_1'
+40.0,male,asympt,120.0,466.0,?,normal,152.0,yes,1.0,flat,?,fixed_defect,'>50_1'
+52.0,female,atyp_angina,140.0,?,f,normal,140.0,no,0.0,?,?,?,'<50'
+44.0,male,atyp_angina,130.0,215.0,f,normal,135.0,no,0.0,?,?,?,'<50'
+41.0,male,asympt,110.0,289.0,f,normal,170.0,no,0.0,?,?,fixed_defect,'>50_1'

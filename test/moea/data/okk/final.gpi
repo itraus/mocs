@@ -1,0 +1,2 @@
+set xrange [4:50]
+set yrange [0.7:3]

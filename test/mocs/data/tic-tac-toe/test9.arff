@@ -1,0 +1,122 @@
+%
+% GALE automatic stratified fold generation for CV
+%
+% Generated at        : Sat Jun 21 00:39:14 CEST 2003
+% Random seed         : 69
+% File name           : GALE.tic-tac-toe.cv.seed.69.fold.000009.test.arff
+% Number of instances : 99
+%
+
+@RELATION tic-tac-toe
+
+@ATTRIBUTE	top-left-square	{x,o,b}
+@ATTRIBUTE	top-middle-square	{x,o,b}
+@ATTRIBUTE	top-right-square	{x,o,b}
+@ATTRIBUTE	middle-left-square	{x,o,b}
+@ATTRIBUTE	middle-middle-square	{x,o,b}
+@ATTRIBUTE	middle-right-square	{x,o,b}
+@ATTRIBUTE	bottom-left-square	{x,o,b}
+@ATTRIBUTE	bottom-middle-square	{x,o,b}
+@ATTRIBUTE	bottom-right-square	{x,o,b}
+@ATTRIBUTE	Class	{positive,negative}
+
+@DATA
+x,x,x,o,o,b,b,x,o,positive
+o,o,o,o,x,x,x,b,x,negative
+o,x,x,x,o,o,o,x,x,negative
+o,x,x,b,o,b,x,b,o,negative
+o,o,x,b,b,o,x,x,x,positive
+x,x,o,x,x,o,b,o,o,negative
+o,x,b,x,x,o,o,x,b,positive
+o,o,o,x,b,x,b,x,b,negative
+b,x,x,o,o,x,b,o,x,positive
+o,o,o,b,x,x,x,x,o,negative
+b,x,b,o,x,b,b,x,o,positive
+b,o,x,o,b,x,o,x,x,positive
+x,o,b,x,o,x,x,b,o,positive
+o,x,o,b,b,o,x,x,x,positive
+o,o,x,x,x,x,o,o,x,positive
+o,b,x,b,x,x,o,o,x,positive
+o,b,x,x,o,x,b,b,o,negative
+o,x,x,b,b,x,o,o,x,positive
+x,x,x,o,b,o,o,x,b,positive
+b,o,o,o,b,x,x,x,x,positive
+b,x,o,o,x,o,x,x,b,positive
+o,b,x,b,o,x,b,b,x,positive
+o,x,x,o,o,x,b,b,x,positive
+o,x,o,x,x,x,b,o,b,positive
+o,o,o,x,b,b,b,x,x,negative
+o,o,b,x,o,x,x,o,x,negative
+o,b,o,x,o,x,o,x,x,negative
+b,o,x,o,x,b,x,x,o,positive
+b,x,o,x,x,x,o,b,o,positive
+b,x,b,o,x,o,b,x,b,positive
+o,o,x,x,x,x,o,x,o,positive
+x,x,o,x,b,o,b,b,o,negative
+o,o,b,x,x,x,o,b,x,positive
+o,o,x,x,x,o,x,o,x,positive
+x,o,x,o,o,x,o,x,x,positive
+x,o,x,x,o,o,x,x,o,positive
+o,b,x,b,b,x,b,o,x,positive
+b,x,x,b,x,o,x,o,o,positive
+x,x,o,o,x,o,o,x,x,positive
+b,o,x,o,o,x,b,x,x,positive
+b,x,o,o,o,b,x,x,x,positive
+x,x,o,x,b,x,o,o,o,negative
+x,b,x,b,x,o,x,o,o,positive
+b,o,x,o,b,x,x,o,x,positive
+o,o,x,o,x,x,x,x,o,positive
+x,x,x,o,o,x,x,o,o,positive
+b,o,x,o,x,x,x,o,b,positive
+x,o,o,x,x,x,o,x,o,positive
+b,o,x,o,x,o,x,b,x,positive
+b,o,b,o,o,x,x,x,x,positive
+x,o,o,b,x,b,x,o,x,positive
+x,o,x,x,o,x,b,o,o,negative
+o,o,x,b,x,x,o,b,x,positive
+o,x,o,b,x,b,b,x,b,positive
+o,o,o,x,b,x,b,b,x,negative
+o,o,o,b,x,x,x,b,b,negative
+b,x,b,x,x,o,o,x,o,positive
+o,x,b,b,o,o,x,x,x,positive
+o,b,b,x,o,x,x,b,o,negative
+b,x,o,x,b,o,x,b,o,negative
+x,x,o,b,b,o,x,b,o,negative
+b,x,x,o,x,o,b,x,o,positive
+x,o,o,b,b,o,x,x,x,positive
+x,b,o,x,o,x,o,o,x,negative
+x,b,x,o,x,x,o,o,o,negative
+o,b,x,o,b,x,o,x,b,negative
+x,x,b,o,o,o,x,x,o,negative
+b,b,x,o,x,x,o,o,x,positive
+b,b,x,x,b,x,o,o,o,negative
+x,o,b,x,x,o,x,o,b,positive
+b,x,o,o,o,x,o,x,x,negative
+o,b,b,x,x,x,b,b,o,positive
+o,b,x,x,x,b,x,o,o,positive
+o,b,b,b,o,x,x,x,o,negative
+b,x,x,o,x,o,x,b,o,positive
+x,x,x,b,b,o,o,x,o,positive
+x,o,o,o,x,x,x,x,o,negative
+x,x,b,b,x,o,o,o,x,positive
+o,o,o,b,x,x,b,x,b,negative
+x,b,x,o,x,o,x,o,b,positive
+o,o,x,b,x,x,x,o,b,positive
+o,b,o,x,x,o,x,x,o,negative
+x,x,x,b,o,x,b,o,o,positive
+b,x,o,o,x,x,o,x,b,positive
+b,x,b,b,x,o,o,x,b,positive
+o,o,b,x,x,x,x,b,o,positive
+o,o,b,x,o,x,x,x,o,negative
+b,o,o,b,x,o,x,x,x,positive
+o,x,b,o,o,b,x,x,x,positive
+x,x,x,b,o,x,o,o,b,positive
+o,x,x,b,o,x,b,b,o,negative
+o,x,x,o,x,b,o,b,b,negative
+x,b,o,b,o,x,o,b,x,negative
+x,x,o,b,o,x,o,b,b,negative
+o,x,o,x,x,x,x,o,o,positive
+o,x,o,x,x,x,o,x,o,positive
+b,x,b,x,x,b,o,o,o,negative
+b,x,x,x,o,x,o,o,o,negative
+x,o,o,x,x,o,x,o,x,positive

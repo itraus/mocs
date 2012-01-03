@@ -1,0 +1,57 @@
+%
+% GALE automatic stratified fold generation for CV
+%
+% Generated at        : Wed Feb 21 19:13:52 CET 2001
+% Random seed         : 69
+% File name           : GALE.cleveland-14-heart-disease.cv.seed.69.fold.000005.test.arff
+% Number of instances : 30
+%
+
+@RELATION cleveland-14-heart-disease
+
+@ATTRIBUTE	'age'	REAL
+@ATTRIBUTE	'sex'	{female,male}
+@ATTRIBUTE	'cp'	{typ_angina,asympt,non_anginal,atyp_angina}
+@ATTRIBUTE	'trestbps'	REAL
+@ATTRIBUTE	'chol'	REAL
+@ATTRIBUTE	'fbs'	{t,f}
+@ATTRIBUTE	'restecg'	{left_vent_hyper,normal,st_t_wave_abnormality}
+@ATTRIBUTE	'thalach'	REAL
+@ATTRIBUTE	'exang'	{no,yes}
+@ATTRIBUTE	'oldpeak'	REAL
+@ATTRIBUTE	'slope'	{up,flat,down}
+@ATTRIBUTE	'ca'	REAL
+@ATTRIBUTE	'thal'	{fixed_defect,normal,reversable_defect}
+@ATTRIBUTE	'num'	{'<50','>50_1','>50_2','>50_3','>50_4'}
+
+@DATA
+54.0,male,non_anginal,125.0,273.0,f,left_vent_hyper,152.0,no,0.5,down,1.0,normal,'<50'
+55.0,male,asympt,160.0,289.0,f,left_vent_hyper,145.0,yes,0.8,flat,1.0,reversable_defect,'>50_1'
+51.0,male,asympt,140.0,299.0,f,normal,173.0,yes,1.6,up,0.0,reversable_defect,'>50_1'
+61.0,male,asympt,148.0,203.0,f,normal,161.0,no,0.0,up,1.0,reversable_defect,'>50_1'
+55.0,female,atyp_angina,132.0,342.0,f,normal,166.0,no,1.2,up,0.0,normal,'<50'
+66.0,female,non_anginal,146.0,278.0,f,left_vent_hyper,152.0,no,0.0,flat,1.0,normal,'<50'
+65.0,male,asympt,110.0,248.0,f,left_vent_hyper,158.0,no,0.6,up,2.0,fixed_defect,'>50_1'
+54.0,female,non_anginal,108.0,267.0,f,left_vent_hyper,167.0,no,0.0,up,0.0,normal,'<50'
+49.0,male,atyp_angina,130.0,266.0,f,normal,171.0,no,0.6,up,0.0,normal,'<50'
+59.0,male,typ_angina,160.0,273.0,f,left_vent_hyper,125.0,no,0.0,up,0.0,normal,'>50_1'
+58.0,female,asympt,100.0,248.0,f,left_vent_hyper,122.0,no,1.0,flat,0.0,normal,'<50'
+48.0,male,asympt,122.0,222.0,f,left_vent_hyper,186.0,no,0.0,up,0.0,normal,'<50'
+42.0,female,non_anginal,120.0,209.0,f,normal,173.0,no,0.0,flat,0.0,normal,'<50'
+71.0,female,non_anginal,110.0,265.0,t,left_vent_hyper,130.0,no,0.0,up,1.0,normal,'<50'
+46.0,male,asympt,140.0,311.0,f,normal,120.0,yes,1.8,flat,2.0,reversable_defect,'>50_1'
+65.0,female,non_anginal,155.0,269.0,f,normal,148.0,no,0.8,up,0.0,normal,'<50'
+44.0,male,asympt,112.0,290.0,f,left_vent_hyper,153.0,no,0.0,up,1.0,normal,'>50_1'
+52.0,male,typ_angina,152.0,298.0,t,normal,178.0,no,1.2,flat,0.0,reversable_defect,'<50'
+52.0,male,atyp_angina,128.0,205.0,t,normal,184.0,no,0.0,up,0.0,normal,'<50'
+44.0,male,asympt,110.0,197.0,f,left_vent_hyper,177.0,no,0.0,up,1.0,normal,'>50_1'
+42.0,male,non_anginal,120.0,240.0,t,normal,194.0,no,0.8,down,0.0,reversable_defect,'<50'
+42.0,male,asympt,136.0,315.0,f,normal,125.0,yes,1.8,flat,0.0,fixed_defect,'>50_1'
+50.0,male,non_anginal,140.0,233.0,f,normal,163.0,no,0.6,flat,1.0,reversable_defect,'>50_1'
+41.0,male,atyp_angina,110.0,235.0,f,normal,153.0,no,0.0,up,0.0,normal,'<50'
+57.0,male,non_anginal,150.0,168.0,f,normal,174.0,no,1.6,up,0.0,normal,'<50'
+59.0,male,asympt,110.0,239.0,f,left_vent_hyper,142.0,yes,1.2,flat,1.0,reversable_defect,'>50_1'
+56.0,female,asympt,200.0,288.0,t,left_vent_hyper,133.0,yes,4.0,down,2.0,reversable_defect,'>50_1'
+48.0,male,atyp_angina,110.0,229.0,f,normal,168.0,no,1.0,down,0.0,reversable_defect,'>50_1'
+57.0,male,asympt,132.0,207.0,f,normal,168.0,yes,0.0,up,0.0,reversable_defect,'<50'
+68.0,female,non_anginal,120.0,211.0,f,left_vent_hyper,115.0,no,1.5,flat,0.0,normal,'<50'

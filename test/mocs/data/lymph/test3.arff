@@ -1,0 +1,49 @@
+%
+% GALE automatic stratified fold generation for CV
+%
+% Generated at        : Thu Feb 22 00:09:04 CET 2001
+% Random seed         : 69
+% File name           : GALE.lymphography.cv.seed.69.fold.000003.test.arff
+% Number of instances : 17
+%
+
+@RELATION lymphography
+
+@ATTRIBUTE	'lymphatics'	{normal,arched,deformed,displaced}
+@ATTRIBUTE	'block_of_affere'	{no,yes}
+@ATTRIBUTE	'bl_of_lymph_c'	{no,yes}
+@ATTRIBUTE	'bl_of_lymph_s'	{no,yes}
+@ATTRIBUTE	'by_pass'	{no,yes}
+@ATTRIBUTE	'extravasates'	{no,yes}
+@ATTRIBUTE	'regeneration_of'	{no,yes}
+@ATTRIBUTE	'early_uptake_in'	{no,yes}
+@ATTRIBUTE	'lym_nodes_dimin'	INTEGER [0,3]
+@ATTRIBUTE	'lym_nodes_enlar'	INTEGER [1,4]
+@ATTRIBUTE	'changes_in_lym'	{bean,oval,round}
+@ATTRIBUTE	'defect_in_node'	{no,lacunar,lac_margin,lac_central}
+@ATTRIBUTE	'changes_in_node'	{no,lacunar,lac_margin,lac_central}
+@ATTRIBUTE	'changes_in_stru'	{no,grainy,drop_like,coarse,diluted,reticular,stripped,faint}
+@ATTRIBUTE	'special_forms'	{no,chalices,vesicles}
+@ATTRIBUTE	'dislocation_of'	{no,yes}
+@ATTRIBUTE	'exclusion_of_no'	{no,yes}
+@ATTRIBUTE	'no_of_nodes_in'	INTEGER [1,8]
+@ATTRIBUTE	'class'	{normal,metastases,malign_lymph,fibrosis}
+
+@DATA
+deformed,yes,yes,no,yes,yes,no,yes,1,2,round,lac_margin,lac_central,grainy,chalices,yes,no,1,metastases
+deformed,yes,yes,yes,yes,yes,yes,no,2,2,oval,lac_central,lacunar,coarse,vesicles,yes,yes,7,fibrosis
+deformed,yes,no,no,no,no,no,yes,1,2,oval,lacunar,lacunar,diluted,no,no,no,1,metastases
+displaced,no,no,no,no,yes,no,yes,1,4,round,lac_central,lac_margin,drop_like,vesicles,yes,yes,5,malign_lymph
+arched,yes,yes,no,yes,yes,yes,yes,1,3,round,lac_central,lac_central,diluted,vesicles,yes,yes,5,malign_lymph
+arched,no,no,no,no,no,no,no,1,2,round,lacunar,lac_margin,drop_like,chalices,yes,no,1,malign_lymph
+deformed,yes,no,no,yes,yes,no,no,1,2,oval,lac_central,lac_margin,grainy,no,yes,yes,3,metastases
+deformed,no,no,no,no,no,no,yes,2,1,oval,lacunar,lacunar,faint,vesicles,no,yes,8,malign_lymph
+arched,no,no,no,no,no,no,yes,1,2,oval,lacunar,no,stripped,no,yes,yes,2,malign_lymph
+arched,yes,no,no,no,no,no,yes,1,2,round,lac_margin,lac_margin,diluted,chalices,no,yes,1,metastases
+arched,no,no,no,no,yes,no,no,1,2,oval,lacunar,lacunar,drop_like,no,no,no,1,malign_lymph
+arched,no,no,no,no,no,no,no,1,1,oval,lacunar,lac_margin,drop_like,no,yes,yes,1,metastases
+displaced,yes,no,no,yes,yes,no,yes,1,4,round,lac_central,lac_margin,coarse,chalices,yes,yes,2,metastases
+arched,yes,no,no,no,yes,no,yes,1,3,round,lac_central,lacunar,faint,vesicles,yes,yes,2,malign_lymph
+displaced,yes,yes,no,yes,yes,no,yes,1,1,oval,lacunar,no,drop_like,no,yes,yes,2,malign_lymph
+arched,no,no,no,no,no,no,no,1,1,bean,no,no,drop_like,no,yes,yes,1,metastases
+arched,yes,yes,yes,yes,yes,no,no,1,2,oval,lac_central,lac_margin,faint,chalices,yes,yes,3,metastases

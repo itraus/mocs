@@ -1,0 +1,40 @@
+%
+% GALE automatic stratified fold generation for CV
+%
+% Generated at        : Fri Jun 20 23:15:17 CEST 2003
+% Random seed         : 69
+% File name           : GALE.zoo.cv.seed.69.fold.000003.test.arff
+% Number of instances : 10
+%
+
+@RELATION zoo
+
+@ATTRIBUTE	hair	{0,1}
+@ATTRIBUTE	feathers	{0,1}
+@ATTRIBUTE	eggs	{0,1}
+@ATTRIBUTE	milk	{0,1}
+@ATTRIBUTE	airborne	{0,1}
+@ATTRIBUTE	aquatic	{0,1}
+@ATTRIBUTE	predator	{0,1}
+@ATTRIBUTE	toothed	{0,1}
+@ATTRIBUTE	backbone	{0,1}
+@ATTRIBUTE	breathes	{0,1}
+@ATTRIBUTE	venomous	{0,1}
+@ATTRIBUTE	fins	{0,1}
+@ATTRIBUTE	legs	{0,2,4,5,6,8}
+@ATTRIBUTE	tail	{0,1}
+@ATTRIBUTE	domestic	{0,1}
+@ATTRIBUTE	catsize	{0,1}
+@ATTRIBUTE	type	{1,2,3,4,5,6,7}
+
+@DATA
+0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,1,4
+0,0,1,0,0,1,1,0,0,0,0,0,6,0,0,0,7
+1,0,0,1,0,0,1,1,1,1,0,0,4,0,0,1,1
+1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1
+1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1
+1,0,1,0,1,0,0,0,0,1,1,0,6,0,0,0,6
+1,0,0,1,0,0,0,1,1,1,0,0,4,1,1,1,1
+0,0,1,0,0,0,0,0,0,1,0,0,6,0,0,0,6
+0,1,1,0,1,0,1,0,1,1,0,0,2,1,0,0,2
+0,1,1,0,1,0,0,0,1,1,0,0,2,1,0,0,2

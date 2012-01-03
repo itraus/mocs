@@ -1,0 +1,104 @@
+#!/usr/bin/gnuplot
+
+set terminal postscript eps enhanced monochrome dashed 18
+
+set xlabel "iterations"
+set ylabel "rules"
+set xrange [0:*]
+set yrange [0:*]
+
+set output "rules.eps"
+plot "evol" using 1:4 title "best individual" with lines, "evol" using 1:6 title "population average" with lines
+
+set ylabel "accuracy"
+set xrange [0:*]
+set yrange [0:100]
+
+set output "acc.eps"
+plot "evol" using 1:2 title "train accuracy" with lines, "evol" using 1:3 title "test accuracy" with lines
+
+set ylabel "generalization"
+set xrange [0:*]
+set yrange [0:1]
+
+set output "gen.eps"
+plot "evol" using 1:5 title "generalization" with lines
+
+set xlabel "error(x)"
+set ylabel "size(x)"
+
+set xrange [0:1]
+set yrange [0:1]
+
+set output "visit0.eps"
+plot "visit0" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final0" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit1.eps"
+plot "visit1" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final1" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit2.eps"
+plot "visit2" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final2" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit3.eps"
+plot "visit3" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final3" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit4.eps"
+plot "visit4" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final4" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit5.eps"
+plot "visit5" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final5" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit6.eps"
+plot "visit6" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final6" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit7.eps"
+plot "visit7" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final7" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit8.eps"
+plot "visit8" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final8" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+set output "visit9.eps"
+plot "visit9" using 1:4 title "visited space" with points pointtype 4 pointsize 0.2, "final9" using 1:4 title "final population" with points pointtype 4 pointsize 1.25
+
+set xrange [0:*]
+set yrange [0:*]
+
+set output "pareto0.eps"
+plot "pareto0" using 1:4 axes x1y1 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto1.eps"
+plot "pareto1" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto2.eps"
+plot "pareto2" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto3.eps"
+plot "pareto3" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto4.eps"
+plot "pareto4" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto5.eps"
+plot "pareto5" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto6.eps"
+plot "pareto6" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto7.eps"
+plot "pareto7" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto8.eps"
+plot "pareto8" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+set output "pareto9.eps"
+plot "pareto9" using 1:4 title "pareto front" with points pointtype 4 pointsize 1.25
+
+set xlabel "rules"
+set ylabel "accuracy (%)"
+set xrange [1:*]
+set yrange [0:100]
+
+set output "overfit.eps"
+plot "overfit" using 1:2 title "train" with lines, "overfit" using 1:3 title "test" with lines
+set output "overfit0.eps"
+plot "overfit0" using 1:2 title "train" with lines, "overfit0" using 1:3 title "test" with lines
+set output "overfit1.eps"
+plot "overfit1" using 1:2 title "train" with lines, "overfit1" using 1:3 title "test" with lines
+set output "overfit2.eps"
+plot "overfit2" using 1:2 title "train" with lines, "overfit2" using 1:3 title "test" with lines
+set output "overfit3.eps"
+plot "overfit3" using 1:2 title "train" with lines, "overfit3" using 1:3 title "test" with lines
+set output "overfit4.eps"
+plot "overfit4" using 1:2 title "train" with lines, "overfit4" using 1:3 title "test" with lines
+set output "overfit5.eps"
+plot "overfit5" using 1:2 title "train" with lines, "overfit5" using 1:3 title "test" with lines
+set output "overfit6.eps"
+plot "overfit6" using 1:2 title "train" with lines, "overfit6" using 1:3 title "test" with lines
+set output "overfit7.eps"
+plot "overfit7" using 1:2 title "train" with lines, "overfit7" using 1:3 title "test" with lines
+set output "overfit8.eps"
+plot "overfit8" using 1:2 title "train" with lines, "overfit8" using 1:3 title "test" with lines
+set output "overfit9.eps"
+plot "overfit9" using 1:2 title "train" with lines, "overfit9" using 1:3 title "test" with lines

@@ -1,0 +1,13 @@
+#!/usr/bin/gnuplot
+
+set xlabel "f_1(x)"
+set ylabel "f_2(x)"
+load "../final.gpi"
+set terminal postscript eps enhanced monochrome dashed 18
+set output "visit.eps"
+plot "visit" title "Visited space" with points pointtype 4 pointsize 0.2, "final" title "Final population" with points pointtype 4 pointsize 1.25
+
+load "../pareto.gpi"
+set terminal postscript eps enhanced monochrome dashed 18
+set output "pareto.eps"
+plot "pareto" title "Pareto front" with points pointtype 4 pointsize 1.25

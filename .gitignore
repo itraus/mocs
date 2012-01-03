@@ -1,0 +1,8 @@
+*.o
+*.so
+**/*out
+imocs
+imoea
+metrics
+imocs-static
+imoea-static

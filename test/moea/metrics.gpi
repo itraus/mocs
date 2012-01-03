@@ -1,0 +1,16 @@
+#!/usr/bin/gnuplot
+
+set terminal postscript eps enhanced monochrome dashed 18
+
+set xlabel "iterations"
+set ylabel "S metric"
+set xrange [0:*]
+set yrange [0:1]
+
+set output "smetric.eps"
+plot "metrics" using 1:2 title "S metric" with lines
+
+set ylabel "SS metric"
+
+set output "ssmetric.eps"
+plot "metrics" using 1:3 title "SS metric" with lines
